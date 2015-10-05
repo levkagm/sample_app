@@ -10,6 +10,7 @@ snapper:
   name: Slavik
   email: snapper@yandex.ru
   password_digest: <%= User.digest('snapper') %>
+  admin: false
 
 lana:
   name: Lana Kane
