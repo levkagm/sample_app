@@ -5,20 +5,20 @@ class PictureUploader < CarrierWave::Uploader::Base
   # Include RMagick or MiniMagick support:
   # include CarrierWave::RMagick
 
-  if Rails.env.production?
+  # if Rails.env.production?
   include Cloudinary::CarrierWave
-  else
-  include CarrierWave::MiniMagick
-  end
+  # else
+  # include CarrierWave::MiniMagick
+  # end
 
   process resize_to_limit: [400, 400]
 
   # Choose what kind of storage to use for this uploader:
-  if Rails.env.production?
-    storage :fog
-  else
-    storage :file
-  end
+  # if Rails.env.production?
+  #   storage :fog
+  # else
+  #   storage :file
+  # end
 
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
