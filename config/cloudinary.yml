@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: levkagm
+  api_key: '189222872755498'
+  api_secret: tMGhuDf_JW5zi5VCxNwwCVHQA9s
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: levkagm
+  api_key: '189222872755498'
+  api_secret: tMGhuDf_JW5zi5VCxNwwCVHQA9s
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: levkagm
+  api_key: '189222872755498'
+  api_secret: tMGhuDf_JW5zi5VCxNwwCVHQA9s
+  enhance_image_tag: true
+  static_image_support: false
